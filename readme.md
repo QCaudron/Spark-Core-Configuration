@@ -37,7 +37,7 @@ To successfully configure, claim, and deploy code to your Spark Core, there are 
 ---
 
 <a name="install-the-spark-core-usb-driver-for-windows" />
-## Install the Spark Core USB Driver for Windows ##
+## 1. Install the Spark Core USB Driver for Windows ##
 
 The first time you connect a Spark Core to your Windows Computer, you need to install the USB Driver for the Spark Core.  You only need to do this once.  Once the driver has been installed successfully you can connect any number of Spark Cores any number of times to your computer in the future. 
 
@@ -116,7 +116,7 @@ The first time you connect a Spark Core to your Windows Computer, you need to in
 ---
 
 <a name="install-nodejs" />
-## Install Node.js ##
+## 2. Install Node.js ##
 
 You can configure your Spark Core using a Node.js module that is provided by Spark.  However, this means that you first must install Node.js on your computer.  This is really easy, quick, and free. 
 
@@ -145,7 +145,7 @@ You can configure your Spark Core using a Node.js module that is provided by Spa
 ---
 
 <a name="install-the-spark-cli" />
-## Install the Spark-CLI ##
+## 3. Install the Spark-CLI ##
 
 Now that we have Node.js installed, we can install the Spark-cli.  
 
@@ -176,7 +176,7 @@ Now that we have Node.js installed, we can install the Spark-cli.
 ---
 
 <a name="create-a-spark-build-account" />
-## Create a Spark Build account ##
+## 4. Create a Spark Build account ##
 
 Before you can "claim" your Spark Core, you need an account with Spark.  
 
@@ -191,7 +191,7 @@ Before you can "claim" your Spark Core, you need an account with Spark.
 ---
 
 <a name="claim-your-spark-core" />
-## Claim your Spark Core ##
+## 5. Claim your Spark Core ##
 
 Now that you have a Spark account, you can "claim" your Spark Core.  Claiming a Spark Core ensures that only you can deploy code to that Spark Core and that you have a way to securely access your Spark Core over the internet. 
 
@@ -230,7 +230,7 @@ Now that you have a Spark account, you can "claim" your Spark Core.  Claiming a 
 ---
 
 <a name="configure-the-spark-cores-wifi" />
-## Configure the Spark Core's WiFi ##
+## 6. Configure the Spark Core's WiFi ##
 
 If you have a Spark Core that you have already claimed, but you need to change the WiFi network settings, it's super easy to do.  These steps assume that you have already installed the Windows USB Driver, Node.js and the Spark-cli as documented above.  
 
@@ -249,7 +249,7 @@ If you have a Spark Core that you have already claimed, but you need to change t
 ---
 
 <a name="identify-your-spark-core" />
-## Identify your Spark Core ##
+## 7. Identify your Spark Core ##
 
 You need to know your Spark Core's Core ID, or possibly Name to interact with it.  There are a number of ways that you can do this:
 
@@ -288,7 +288,7 @@ We'll show you each of those methods below:
 ---
 
 <a name="deploy-code-to-your-spark-core" />
-## Deploy code to your Spark Core ##
+## 8. Deploy code to your Spark Core ##
 
 Typically, you will use the **[Spark Build](http://spark.io/build)** web based code editor to write and deploy code to your Spark Core.  However, there are other options including using the Spark-CLI's `spark compile` ([link](http://docs.spark.io/cli/#running-from-source-advanced-spark-compile)) and `spark flash` ([link](http://docs.spark.io/cli/#running-from-source-advanced-spark-flash)) commands, or the new [Spark Dev](https://www.spark.io/dev) development environment.  For this walkthrough though we'll focus on the web based **[Spark Build](http://spark.io/build)** environment.
 
@@ -335,7 +335,7 @@ Typically, you will use the **[Spark Build](http://spark.io/build)** web based c
 ---
 
 <a name="remove-your-spark-core-from-your-account" />
-## Remove Your Spark Core from Your Account ##
+## 9. Remove Your Spark Core from Your Account ##
 
 If you have claimed a spark core in an account and wish to use it in another account, or to pass along to another developer, you first need to **"Remove"** the spark core from your account. 
 
